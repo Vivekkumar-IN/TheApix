@@ -88,7 +88,7 @@ In the example above, `file_path` will be an instance of the `FilePath` class, w
 | [31. Stackoverflow Search](#31-stackoverflow-search) | ✅
 | [32. Upload Image](#32-upload-image) | ✅
 | [33. Wikipedia](#33-wikipedia) | ✅
-| [34. Write](#34-write) | ❌
+| [34. Write](#34-write) | ✅
 
 
 ## 🎓 How to Use Each Function
@@ -112,15 +112,15 @@ print(result)
 
 ```json
 {
-    "content": "I think I've found what I was looking for all this time. I, who was always alone... found comrades for the first time.",
+    "content": "There is no need for any proof. There is no need to create any. We just have to live every second to the fullest, and the traces of the path we lived will burn into the ground. That will serve as proof of our existence.",
     "anime": {
-        "id": 811,
-        "name": "Samurai Champloo",
-        "altName": "Samurai Champloo"
+        "id": 349,
+        "name": "Gintama",
+        "altName": "Gintama"
     },
     "character": {
-        "id": 2439,
-        "name": "Jin"
+        "id": 1908,
+        "name": "Hijikata Toushirou"
     }
 }
 ```
@@ -144,9 +144,9 @@ print(result)
 
 ```json
 {
-    "file_name": "mo",
+    "file_name": "ben",
     "file_type": "image/jpeg",
-    "file_url": "https://cofuvfbkdyfchroaxcvi.supabase.co/storage/v1/object/public/avatars/mo.jpg"
+    "file_url": "https://cofuvfbkdyfchroaxcvi.supabase.co/storage/v1/object/public/avatars/ben.jpg"
 }
 ```
 
@@ -174,7 +174,7 @@ print(result)
 ```text
 http://www.technosamrat.com/wp-content/uploads/2012/05/Pokemon-Wallpapers-Picture.jpg
 https://www.pokemon.com/static-assets/app/static3/img/og-default-image.jpeg
-http://www.animextremist.com/imagenes/pokemon/pokemon103.jpg
+https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pokémon_logo.svg/1200px-International_Pokémon_logo.svg.png
 ```
 
 ### 4. Blackpink
@@ -200,7 +200,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/TheApi/TheApi/downloads/blackpink_HDPc9hDY.jpg
+/home/runner/work/TheApi/TheApi/downloads/blackpink_xCTslAmc.jpg
 ```
 
 ### 5. Carbon
@@ -224,7 +224,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/TheApi/TheApi/downloads/carbon_IxfZrdIR.png
+/home/runner/work/TheApi/TheApi/downloads/carbon_PkFMsG9z.png
 ```
 
 ### 6. Cat
@@ -245,7 +245,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://cdn2.thecatapi.com/images/mg.png
+https://cdn2.thecatapi.com/images/9du.gif
 ```
 
 ### 7. Dog
@@ -266,7 +266,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://random.dog/a70f8390-eb64-48e9-b216-00bee638d494.jpg
+https://random.dog/14769-27888-18622.jpg
 ```
 
 ### 8. Domain Search
@@ -341,7 +341,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://randomfox.ca/?i=120
+https://randomfox.ca/?i=34
 ```
 
 ### 11. Gen Qr
@@ -370,7 +370,7 @@ print(result)
 #### Expected Output
 
 ```text
-/home/runner/work/TheApi/TheApi/downloads/65K6m9vq_qr.png
+/home/runner/work/TheApi/TheApi/downloads/TdCZqGcV_qr.png
 ```
 
 ### 12. Generate Pdf
@@ -409,7 +409,7 @@ print(result)
 #### Expected Output
 
 ```text
-The most important thing is the thing most easily forgotten.
+When you're looking up at birds flying overhead, keep your mouth closed.
 ```
 
 ### 14. Get Btc Value
@@ -441,22 +441,22 @@ print(result)
     "EUR": {
         "code": "EUR",
         "description": "Euro",
-        "rate": "94,382.057",
-        "rate_float": 94382.0574,
+        "rate": "93,675.218",
+        "rate_float": 93675.2178,
         "symbol": "&euro;"
     },
     "GBP": {
         "code": "GBP",
         "description": "British Pound Sterling",
-        "rate": "77,775.169",
-        "rate_float": 77775.1689,
+        "rate": "77,785.488",
+        "rate_float": 77785.4875,
         "symbol": "&pound;"
     },
     "USD": {
         "code": "USD",
         "description": "United States Dollar",
-        "rate": "99,396.617",
-        "rate_float": 99396.6167,
+        "rate": "97,261.038",
+        "rate_float": 97261.0377,
         "symbol": "&#36;"
     }
 }
@@ -493,15 +493,15 @@ print(result)
     "data": [
         {
             "id": 1,
-            "street": "507 Bauch Trafficway",
-            "streetName": "Ransom Corners",
-            "buildingNumber": "630",
-            "city": "Terrychester",
-            "zipcode": "25577-3662",
-            "country": "Ireland",
-            "country_code": "IE",
-            "latitude": -15.755217,
-            "longitude": -97.116937
+            "street": "5413 Keebler Stravenue",
+            "streetName": "Isobel Port",
+            "buildingNumber": "5247",
+            "city": "Port Amy",
+            "zipcode": "78242-7371",
+            "country": "U.S. Virgin Islands",
+            "country_code": "VI",
+            "latitude": -2.402363,
+            "longitude": 85.138604
         }
     ]
 }
@@ -538,9 +538,9 @@ print(result)
     "data": [
         {
             "type": "MasterCard",
-            "number": "5143099703411289",
-            "expiration": "05/25",
-            "owner": "Luisa Herman"
+            "number": "378304915310387",
+            "expiration": "01/26",
+            "owner": "Libby Kuhic"
         }
     ]
 }
@@ -579,8 +579,8 @@ print(result)
     "total": 1,
     "data": [
         {
-            "title": "Enim autem ipsa ut illo.",
-            "description": "Natus nam magnam quae ea tempore voluptates. Magnam hic sunt sed ut. Delectus cum tempore et aut voluptates.",
+            "title": "Sunt et velit iste.",
+            "description": "Repudiandae sunt quidem architecto nulla sequi. Pariatur est sequi qui illo autem laudantium. Quos est assumenda maxime distinctio quaerat ullam.",
             "url": "https://picsum.photos/640/480"
         }
     ]
@@ -605,7 +605,7 @@ print(result)
 #### Expected Output
 
 ```text
-आजतक मुझसे किसी ने ये नहीं कहा कि तुम ही मेरी दुनिया हो हो सकता है कि शायद मैं किसी का गाँव हूँ 😆🤣😋😉
+एक कुंवारे लड़के का विज्ञापन गृह क्लेश हेतु 1 कन्या चाहिए 😆🤣😋😉 
 ```
 
 ### 19. Get Jokes
@@ -629,8 +629,7 @@ print(result)
 #### Expected Output
 
 ```text
-Today, my son asked "Can I have a book mark?" and I burst into tears.
-11 years old and he still doesn't know my name is Brian.
+A perfectionist walked into a bar... apparently, the bar was not set high enough.
 ```
 
 ### 20. Get Uselessfact
@@ -651,7 +650,7 @@ print(result)
 #### Expected Output
 
 ```text
-The average person spends about two years on the phone in a lifetime.
+2,000 pounds of space dust and other space debris fall on the Earth every day.
 ```
 
 ### 21. Get Word Definitions
@@ -709,16 +708,16 @@ print(result)
 #### Expected Output
 
 ```text
-Mankind
-Crazy
-Declared
-Espionage
-Hatred
-Scorpion
-Good
-Diary
-Daybreak
-Effects
+Denatured
+Applicant
+Mold
+Unlinked
+Salvation
+Syrup
+Slimness
+Overbuilt
+Nag
+Essential
 ```
 
 ### 23. Github Search
@@ -802,7 +801,7 @@ print(result)
 #### Expected Output
 
 ```text
-बहुत कमियाँ निकालते है हम दुसरों में अक्सर..आओ एक मुलाकात जरा आईने से भी कर लें…
+ज्ञान से शब्द समझ में आते हैं और अनुभव से अर्थ!!
 ```
 
 ### 25. Hug
@@ -831,8 +830,8 @@ print(result)
 ```json
 [
     {
-        "anime_name": "Hayate no Gotoku! Cuties",
-        "url": "https://nekos.best/api/v2/hug/e549230e-34a7-4834-86a9-c4c76df0531d.gif"
+        "anime_name": "Kaijin Kaihatsubu no Kuroitsu-san",
+        "url": "https://nekos.best/api/v2/hug/4151b575-c780-4dd4-ab7c-eaa25bfe5200.gif"
     }
 ]
 ```
@@ -855,7 +854,7 @@ print(result)
 #### Expected Output
 
 ```text
-https://preview.redd.it/jgnz61eh7w7e1.png?width=640&crop=smart&auto=webp&s=e8b420bb6db7d411f5db046009cac94f536560fe
+https://preview.redd.it/qm278j6w4x7e1.png?width=320&crop=smart&auto=webp&s=7dbfecf4ab2bc67cf3c60a1fb27ef9b5aa65e92d
 ```
 
 ### 27. Neko
@@ -895,22 +894,22 @@ print(result)
 {
     "results": [
         {
-            "artist_href": "https://www.pixiv.net/en/users/66588973",
-            "artist_name": "\u4e59\u5e61\u308a\u3042\u3093",
-            "source_url": "https://www.pixiv.net/en/artworks/98178014",
-            "url": "https://nekos.best/api/v2/neko/a34a48cd-9af0-4437-94ff-2b881d2b1ce7.png"
+            "artist_href": "https://www.pixiv.net/en/users/45748005",
+            "artist_name": "\u6afb\u304b\u304a\u308b",
+            "source_url": "https://www.pixiv.net/en/artworks/102276339",
+            "url": "https://nekos.best/api/v2/neko/af3ed407-c947-44b2-a744-f0bea6e773c8.png"
         },
         {
-            "artist_href": "https://www.pixiv.net/en/users/53797367",
-            "artist_name": "\u3068\u306a\u305b\u304c",
-            "source_url": "https://www.pixiv.net/en/artworks/87202777",
-            "url": "https://nekos.best/api/v2/neko/f7bb8dda-d579-473d-af3a-e0db7ed41f66.png"
+            "artist_href": "https://www.pixiv.net/en/users/41382079",
+            "artist_name": "\u7d75\u5948\u306e\u3048\u308b",
+            "source_url": "https://www.pixiv.net/en/artworks/80631773",
+            "url": "https://nekos.best/api/v2/neko/950b272f-0634-4135-b107-cf63c21da2d4.png"
         },
         {
-            "artist_href": "https://www.pixiv.net/en/users/15440727",
-            "artist_name": "\u79cb\u4e43\u3048\u308b",
-            "source_url": "https://www.pixiv.net/en/artworks/88207368",
-            "url": "https://nekos.best/api/v2/neko/6497c3ac-da98-4636-9a56-8a66895a642d.png"
+            "artist_href": "https://www.pixiv.net/en/users/10678435",
+            "artist_name": "\u72d0\u5df3\u591c",
+            "source_url": "https://www.pixiv.net/en/artworks/93283477",
+            "url": "https://nekos.best/api/v2/neko/1b79a7fd-9809-4468-90ab-6573f08dfa94.png"
         }
     ]
 }
@@ -986,9 +985,9 @@ print(result)
 #### Expected Output
 
 ```text
-The universe is transformation; our life is what our thoughts make it.
+True friendship can afford true knowledge. It does not depend on darkness and ignorance.
 
-author - Marcus Aurelius
+author - Henry David Thoreau
 ```
 
 ### 30. Riddle
@@ -1010,8 +1009,8 @@ print(result)
 
 ```json
 {
-    "riddle": "RIDDLE ME THIS:A woman walked into an office building, looked at the guard, and said her name was Jenny. The next day she walked into the same building, looked at the same guard and said her name was Julie. What is going on?",
-    "answer": "The woman has Multiple Personality Disorder. This happens when a traumatic experience causes so much pain that they make another personality to cope with the situation"
+    "riddle": "I am the beginning of sorrow, and the end of sickness. You cannot express happiness without me, yet I am in the midst of crosses. I am always in risk, yet never in danger. You may find me in the sun, but I am never out of darkness.",
+    "answer": "The letter S"
 }
 ```
 
@@ -1083,7 +1082,7 @@ print(result)
             "link": "https://stackoverflow.com/users/951797/brian"
         },
         "is_answered": true,
-        "view_count": 32700,
+        "view_count": 32701,
         "accepted_answer_id": 7942409,
         "answer_count": 3,
         "score": 3,
@@ -1110,7 +1109,7 @@ print(result)
             "link": "https://stackoverflow.com/users/13028884/giegie"
         },
         "is_answered": false,
-        "view_count": 2033,
+        "view_count": 2034,
         "answer_count": 2,
         "score": 0,
         "last_activity_date": 1652730812,
@@ -1203,7 +1202,7 @@ print(result)
 #### Expected Output
 
 ```text
-cannot identify image file <_io.BytesIO object at 0x7fc6a3fd3bf0>
+/home/runner/work/TheApi/TheApi/downloads/write_9djIVS7z.jpg
 ```
 
 
